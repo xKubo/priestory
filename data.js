@@ -126,7 +126,7 @@
 	
 	
 
-	// Susiaren vchod 8
+	 // Susiaren vchod 8
 	{ 
 		rects : 
 		[
