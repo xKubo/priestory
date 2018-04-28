@@ -1,0 +1,24 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="bundle.js"></script>
+<script src="data.js"></script>
+<script>
+var m = GetMain();
+</script>
+</head>
+<body onload="m.init('#cnv', '#MsgDiv', data);">
+<!--
+<input type="button" onclick="m.draw();" >Click Me!</input>
+
+<div class="img-overlay-wrap" id="divMain">
+  <img src="image.png" id="iIMG">
+  <svg viewBox="0 0 2000 2000" id="iSVG"/>
+
+</div>
+-->
+<div id="MsgDiv" height="20" width="500">Bez popisu</div>
+<canvas width="5" height="5" id="cnv"></canvas>
+
+</body>
+</html>
