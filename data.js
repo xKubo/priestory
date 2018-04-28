@@ -137,6 +137,56 @@
 		num : 13,
 	},
 	
+	
+		// Spolocny priestor
+	{	rect : [444, 217, 63, 41], 
+		cat: 'm', 
+		num : '15 N',
+	},	
+
+	{	rect : [633, 325, 61, 51], 
+		cat: 'm', 
+		num : '21 N',
+	},	
+
+	{	rect : [514, 217, 21, 41], 
+		cat: 'p', 
+		num: '11A'
+	},			
+	
+	{	rect : [539, 217, 32, 79], 
+		cat: 'p', 
+		num: '11B'
+	},	
+	
+		
+	{	rect : [576, 217, 47, 79], 
+		cat: 'pracovna', 
+		num: '10 N'
+	},	
+	
+			
+	{	rect : [514, 325, 51, 26], 
+		cat: 'p', 
+		num: '8'
+	},	
+	
+			
+	{	rect : [570, 325, 51, 25], 
+		cat: 'p', 
+		num: '9 N'
+	},	
+	
+				
+	{	rect : [514, 355, 52, 113], 
+		cat: 'g', 
+		num: '6'
+	},	
+	{	rect : [569, 354, 52, 113], 
+		cat: 'g', 
+		num: '7'
+	},		
+	
 	// Susiaren vchod 10
 	{ 
 		rects : 

@@ -22,6 +22,10 @@ function ColorFromData(data)
 			return '#FFFF00';
 		case 'k' :
 			return '#C0C0C0';
+		case 'sp' :
+			return '#FF8888';
+		case 'm' :
+			return '#FF8888';
 		default:
 			return '#FF0000';
 	}
@@ -40,6 +44,12 @@ function DescFromData(data)
 			break;
 		case 'g' : 
 			Desc = 'Garaz';
+			break;
+		case 'sp' : 
+			Desc = 'Spolocny priestor';
+			break;
+		case 'm' : 
+			Desc = 'Miestnost bez oznacenia';
 			break;
 		case 'k' :
 			Desc = 'Kocikaren';
