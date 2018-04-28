@@ -72,10 +72,6 @@
 		num : '12',
 	},	
 
-<<<<<<< HEAD
-=======
-	// Pivnice vchod 10	
->>>>>>> 3b5d330aee1fec9ddb6e608f852f575e3fe47cea
 	{	rect : [216, 381, 24, 65], 
 		cat:'p', 
 		num : '8 N',
@@ -111,7 +107,6 @@
 	},
 
 
-<<<<<<< HEAD
 	// Pivnica vchod 8
 	{	rect : [333, 381, 23, 44], 
 		cat: 'p', 
@@ -131,7 +126,7 @@
 	
 	
 
-	 // Susiaren vchod 8
+	  // Susiaren vchod 8
 	{ 
 		rects : 
 		[
@@ -143,22 +138,13 @@
 	},
 	
 	// Susiaren vchod 10
-=======
-	
-	
->>>>>>> 3b5d330aee1fec9ddb6e608f852f575e3fe47cea
 	{ 
 		rects : 
 		[
 			[630, 120, 112, 47], 
 			[630, 167, 84, 97]
 		], 
-<<<<<<< HEAD
 		cat:'s',
 		num : 17,
-=======
-		cat:'s', 
-		color:'#00FF00'
->>>>>>> 3b5d330aee1fec9ddb6e608f852f575e3fe47cea
 	},
 ];
