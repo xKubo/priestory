@@ -1,4 +1,15 @@
-﻿var data = 
+﻿var DefaultCategory = {Color:'#FF0000', Desc: 'Priestor'};
+var Categories = 
+[
+	{Code: 'p', Color:'#0000CF', Desc:'Pivnica'},
+	{Code: 's', Color:'#00FF00', Desc:'Susiaren'},
+	{Code: 'g', Color:'#FFFF00', Desc:'Garaz'},
+	{Code: 'k', Color:'#C0C0C0', Desc:'Kocikaren'},
+	{Code: 'sp', Color:'#FF8888', Desc:'Spolocny priestor'},
+	{Code: 'm', Color:'#FF8888', Desc:'Miestnost bez oznacenia'},	
+];
+
+var data = 
 [
 	// Pivnice - Vchod c.10
 	{	rect : [26, 312, 36, 48], 
@@ -139,7 +150,7 @@
 	
 	
 		// Spolocny priestor
-	{	rect : [444, 217, 63, 41], 
+	{	rect : [443, 217, 64, 41], 
 		cat: 'm', 
 		num : '15 N',
 	},	
@@ -172,7 +183,7 @@
 	},	
 	
 			
-	{	rect : [569, 324, 53, 25], 
+	{	rect : [569, 324, 53, 26], 
 		cat: 'p', 
 		num: '9 N'
 	},	
