@@ -2,11 +2,11 @@
 var Categories = 
 [
 	{Code: 'p', Color:'#0000CF', Desc:'Pivnica'},
-	{Code: 's', Color:'#00FF00', Desc:'Susiaren'},
-	{Code: 'g', Color:'#FFFF00', Desc:'Garaz'},
-	{Code: 'k', Color:'#C0C0C0', Desc:'Kocikaren'},
-	{Code: 'sp', Color:'#FF8888', Desc:'Spolocny priestor'},
-	{Code: 'm', Color:'#FF8888', Desc:'Miestnost bez oznacenia'},	
+	{Code: 's', Color:'#00FF00', Desc:'Sušiareň'},
+	{Code: 'g', Color:'#FFFF00', Desc:'Garáž'},
+	{Code: 'k', Color:'#C0C0C0', Desc:'Kočikáreň'},
+	{Code: 'sp', Color:'#FF8888', Desc:'Spoločný priestor'},
+	{Code: 'm', Color:'#FF8888', Desc:'Miestnosť bez označenia'},	
 ];
 
 var data = 
@@ -173,7 +173,8 @@ var data =
 		
 	{	rect : [575, 216, 48, 80], 
 		cat: 'sp', 
-		num: '10 N - Pracovna'
+		num: '10 N',
+		text: 'Práčovňa'
 	},	
 	
 			
@@ -218,9 +219,9 @@ var data =
 	// Susiaren vchod 6
 	{ 
 		rects : 
-		[
-			[630, 120, 112, 47], 
-			[630, 167, 84, 97]
+		[		
+			[630, 120, 84, 144], 
+			[714, 120, 28, 48]
 		], 
 		cat:'s',
 		num : 17,
@@ -402,29 +403,34 @@ var data =
 	
 	{	rect : [1271, 125, 81, 107], 
 		cat: 'sp', 
-		num: '11 Ohrievace TUV'
+		num: '11',
+		text: 'Ohrievače TÚV',
 	},	
 	
 	{	rect : [1431, 126, 110, 252], 
 		cat: 'sp', 
-		num: '6 Kotolna'
+		num: '6',
+		text: 'Kotolňa',
 	},	
 	
 		// ...
 	
 	{	rect : [1361, 126, 35, 42], 
 		cat: 'sp', 
-		num: '10 Kuric'
+		num: '10',
+		text: 'Kurič',
 	},
 
 	{	rect : [1398, 126, 27, 15], 
 		cat: 'sp', 
-		num: '6 WC'
+		num: '6',
+		text: 'WC',
 	},
 
 	{	rect : [1398, 144, 29, 25], 
 		cat: 'sp', 
-		num: '6 Sprcha'
+		num: '6',
+		text: 'Sprcha',
 	},	
 	
 ];
