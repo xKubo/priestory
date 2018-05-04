@@ -89,7 +89,7 @@ function CreateObjectFromData(d, g)
 		o.MaxRect = mr;
 	}
 	
-	g.font = "10px Arial";
+	g.font = "bold 11px Arial";
 	g.fillStyle = 'black';
 	g.globalAlpha = 1.0;
 	var ex = g.measureText(o.data.num);
