@@ -14,106 +14,106 @@ var data =
 	// Pivnice - Vchod c.10
 	{	rect : [26, 312, 36, 48], 
 		cat:'p',
-		num:'19',
+		num:'44',
 	},
 	{	rect : [65, 314, 31, 43], 
 		cat: 'p',
-		num	: '18',
+		num	: '32',
 	},
 	{	rect : [100, 312, 38, 46], 
 		cat:'p', 
-		num : '17',
+		num : '42',
 	},	
 	{	rect : [146, 311, 31, 46], 
 		cat:'p',
-		num : '16',
+		num : '48',
 	},	
 	
 	{	rect : [27, 381, 41, 39], 
 		cat:'p',
-		num: '21',
+		num: '43',
 	},
 	{	rect : [69, 380, 48, 39], 
 		cat: 'p',
-		num	: '22',
+		num	: '47',
 	},
 	{	rect : [70, 421, 45, 30], 
 		cat:'p',
-		num : '23 N',
+		num : '45',
 	},	
 	
 	{	rect : [28, 423, 40, 29], 
 		cat:'p', 
-		num : '24 N',
+		num : '36',
 	},	
 	
 	{	rect : [28, 480, 24, 39], 
 		cat:'p', 
-		num : '26 N',
+		num : '46',
 	},	
 	
 	{	rect : [28, 523, 26, 45], 
 		cat: 'p', 
-		num : '27',
+		num : '41',
 	},	
 
 	// Kocikaren vchod 10
 	{	rect : [77, 480, 66, 86], 
 		cat:'k', 
-		num : '27',
+		//num : '27',
 	},	
 	
 	// Pivnice vchod 10
 	{	rect : [179, 312, 32, 44], 
 		cat: 'p', 
-		num : '15 N',
+		num : '37',
 	},	
 	
 	{	rect : [215, 311, 33, 44], 
-		cat: 'p', 
-		num : '14 N',
+		cat: 'm', 
+		num : '?',
 	},	
 
 	{	rect : [250, 311, 30, 43], 
 		cat: 'p', 
-		num : '13 N',
+		num : '29',
 	},	
 	{	rect : [283, 311, 37, 43], 
 		cat: 'p', 
-		num : '12',
+		num : '34',
 	},	
 
 	{	rect : [216, 381, 24, 65], 
 		cat:'p', 
-		num : '8 N',
+		num : '40',
 	},	
 	
 	{	rect : [244, 381, 24, 64], 
 		cat: 'p', 
-		num : '9',
+		num : '35',
 	},	
 	
 	{	rect : [271, 381, 25, 64], 
 		cat: 'p', 
-		num : '10',
+		num : '38',
 	},	
 
 	{	rect : [300, 380, 23, 65], 
 		cat: 'p', 
-		num : '11',
+		num : '39',
 	},	
 	
 	// Garaze vchod 10
 	{ 
 		rect : [218, 449, 51, 116], 
 		cat:'g', 
-		num: '11',
+		//num: '11',
 		color:'#00FF00'
 	},
 	{ 
 		rect : [272, 449, 53, 116], 
 		cat:'g', 
-		num: 43,
+		//num: 43,
 		color:'#00FF00'
 	},
 
@@ -121,18 +121,18 @@ var data =
 	// Pivnica vchod 8
 	{	rect : [333, 380, 23, 45], 
 		cat: 'p', 
-		num : '17 N',
+		num : '31',
 	},	
 
 	{	rect : [334, 429, 23, 41], 
 		cat: 'p', 
-		num : '16',
+		num : '22',
 	},	
 
 
 	{	rect : [381, 381, 58, 89], 
 		cat: 'k', 
-		num : '15',
+		//num : '15',
 	},			
 	
 	
@@ -145,75 +145,78 @@ var data =
 			[411, 218, 27, 40]
 		], 
 		cat:'s',
-		num : 13,
+		//num : 13,
+		text:'Zasadačka'
 	},
 	
 	
 		// Spolocny priestor
 	{	rect : [443, 217, 64, 41], 
-		cat: 'm', 
-		num : '15 N',
+		cat: 'sp', 
+		//num : '15 N',
+		text: 'Stupačka, kúrenie'
 	},	
 
 	{	rect : [633, 323, 61, 53], 
-		cat: 'm', 
-		num : '21 N',
+		cat: 'sp', 
+		//num : '21 N',
+		text: 'KOSTka',
 	},	
 
 	{	rect : [513, 217, 22, 41], 
 		cat: 'p', 
-		num: '11A'
+		num: '33'
 	},			
 	
 	{	rect : [538, 216, 33, 80], 
 		cat: 'p', 
-		num: '11B'
+		num: '25'
 	},	
 	
 		
 	{	rect : [575, 216, 48, 80], 
 		cat: 'sp', 
-		num: '10 N',
+		//num: '10 N',
 		text: 'Práčovňa'
 	},	
 	
 			
 	{	rect : [514, 324, 51, 26], 
 		cat: 'p', 
-		num: '8'
+		num: '21'
 	},	
 	
 			
 	{	rect : [569, 324, 53, 26], 
 		cat: 'p', 
-		num: '9 N'
+		num: '30'
 	},	
 	
 				
 	{	rect : [514, 355, 52, 113], 
 		cat: 'g', 
-		num: '6'
+		//num: '6'
 	},	
 	{	rect : [569, 354, 52, 113], 
 		cat: 'g', 
-		num: '7'
+		//num: '7'
 	},		
 	
 	{	rect : [632, 266, 40, 29], 
 		cat: 'p', 
-		num: '18 N'
+		num: '23'
 	},	
 	
 			
 	{	rect : [674, 267, 40, 28], 
 		cat: 'p', 
-		num: '19 N'
+		num: '13'
 	},	
 	
 				
 	{	rect : [717, 323, 24, 53], 
 		cat: 'k', 
-		num: '20 N'
+		//num: '20 N'
 	},	
 	
 	// Susiaren vchod 6
@@ -224,76 +227,77 @@ var data =
 			[714, 120, 28, 48]
 		], 
 		cat:'s',
-		num : 17,
+		//num : 17,
 	},
 	
 	{	rect : [746, 122, 63, 46], 
 		cat: 'sp', 
-		num: '15 N'
+		//num: '15 N'
+		text : 'Mangeľ'
 	},	
 	
 			
 	{	rect : [815, 121, 35, 47], 
 		cat: 'p', 
-		num: '14'
+		num: '26'
 	},	
 	
 	{	rect : [853, 121, 35, 46], 
 		cat: 'p', 
-		num: '13'
+		num: '15'
 	},	
 
 	{	rect : [892, 120, 35, 48], 
 		cat: 'p', 
-		num: '12'
+		num: '9'
 	},	
 				
 	{	rect : [815, 192, 27, 65], 
 		cat: 'p', 
-		num: '8 N'
+		num: '24'
 	},	
 	
 	{	rect : [845, 192, 26, 64], 
 		cat: 'p', 
-		num: '9'
+		num: '4'
 	},	
 
 	{	rect : [875, 192, 26, 64], 
 		cat: 'p', 
-		num: '10 N'
+		num: '12'
 	},	
 	
 	{	rect : [902, 193, 25, 63], 
-		cat: 'p', 
-		num: '11 N'
+		cat: 'm', 
+		num: '?'
 	},	
 	
 	
 	{	rect : [816, 260, 54, 114], 
 		cat: 'g', 
-		num: '6 N'
+		//num: '6 N'
 	},	
 	
 	{	rect : [875, 260, 52, 112], 
 		cat: 'g', 
-		num: '7'
+		//num: '7'
 	},	
 	
 	/// Vchod c. 4
 	
 	{	rect : [938, 99, 42, 35], 
 		cat: 'p', 
-		num: '18'
+		num: '11'
 	},	
 
 	{	rect : [981, 100, 42, 34], 
 		cat: 'p', 
-		num: '19 N'
+		num: '28'
 	},	
 				
 	{	rect : [938, 135, 41, 34], 
 		cat: 'p', 
-		num: '21 N'
+		num: '28'
 	},	
 	
 	{	rect : [981, 135, 42, 35], 
@@ -303,74 +307,75 @@ var data =
 
 	{	rect : [937, 193, 26, 41], 
 		cat: 'p', 
-		num: '23'
+		num: '17'
 	},	
 	
 	{	rect : [936, 237, 27, 43], 
 		cat: 'p', 
-		num: '24'
+		num: '18'
 	},	
 	
 	{	rects : [[987, 197, 60, 84],  [987, 191, 34, 6] ],
 		cat: 'k', 
-		num: '22'
+		//num: '22'
 	},	 
 
 	{	rect : [938, 28, 35, 43], 
 		cat: 'p', 
-		num: '17 N'
+		num: '6'
 	},	
 
 	{	rect : [975, 29, 37, 43], 
 		cat: 'p', 
-		num: '16'
+		num: '14'
 	},	
 	
 	{	rect : [1015, 30, 35, 42], 
 		cat: 'p', 
-		num: '15 N'
+		num: '1'
 	},		
 	
 	{	rect : [1057, 30, 65, 43], 
 		cat: 'm', 
-		num: '13 N'
+		//num: '13 N'
 	},		
 
 	{	rect : [1125, 31, 111, 43], 
 		cat: 'm', 
-		num: '12'
+		//num: '12',
+		text: 'Výmenička'
 	},		
 	
 	
 	{	rect : [1180, 147, 54, 21], 
 		cat: 'p', 
-		num: '8'
+		num: '19'
 	},	
 	
 	{	rect : [1125, 147, 52, 20], 
 		cat: 'p', 
-		num: '9'
+		num: '10'
 	},		
 	
 	{	rect : [1151, 77, 41, 44], 
 		cat: 'p', 
-		num: '10'
+		num: '8'
 	},		
 
 	{	rect : [1195, 77, 41, 46], 
 		cat: 'p', 
-		num: '11'
+		num: '2'
 	},		
 	
 		
 	{	rect : [1124, 171, 53, 111], 
 		cat: 'g', 
-		num: '6'
+		//num: '6'
 	},		
 
 	{	rect : [1180, 171, 53, 111], 
 		cat: 'g', 
-		num: '7'
+		//num: '7'
 	},		
 	
 	
@@ -378,38 +383,38 @@ var data =
 	
 	{	rect : [1242, 333, 23, 43], 
 		cat: 'p', 
-		num: '17 N'
+		num: '5'
 	},	
 	
 	{	rect : [1242, 288, 23, 42], 
 		cat: 'p', 
-		num: '16 N'
+		num: '3'
 	},		
 	
 	{	rect : [1269, 237, 42, 24], 
 		cat: 'p', 
-		num: '13'
+		num: '7'
 	},		
 
 	{	rect : [1314, 238, 42, 24], 
 		cat: 'p', 
-		num: '12 N'
+		num: '16'
 	},	
 
 	{	rects : [[1291, 294, 61, 82],  [1291, 289, 36, 5] ],
 		cat: 'k', 
-		num: '15'
+		//num: '15'
 	},		
 	
 	{	rect : [1271, 125, 81, 107], 
 		cat: 'sp', 
-		num: '11',
+		//num: '11',
 		text: 'Ohrievače TÚV',
 	},	
 	
 	{	rect : [1431, 126, 110, 252], 
 		cat: 'sp', 
-		num: '6',
+		//num: '6',
 		text: 'Kotolňa',
 	},	
 	
@@ -417,19 +422,19 @@ var data =
 	
 	{	rect : [1361, 126, 35, 42], 
 		cat: 'sp', 
-		num: '10',
+		//num: '10',
 		text: 'Kurič',
 	},
 
 	{	rect : [1398, 126, 27, 15], 
 		cat: 'sp', 
-		num: '6',
+		//num: '6',
 		text: 'WC',
 	},
 
 	{	rect : [1398, 144, 29, 25], 
 		cat: 'sp', 
-		num: '6',
+		//num: '6',
 		text: 'Sprcha',
 	},	
 	

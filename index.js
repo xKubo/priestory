@@ -88,11 +88,15 @@ function CreateObjectFromData(d, g)
 		o.MaxRect = mr;
 	}
 	
-	g.font = "bold 11px Arial";
-	g.fillStyle = 'black';
-	g.globalAlpha = 1.0;
-	var ex = g.measureText(o.data.num);
-	g.fillText(o.data.num, o.MaxRect[0] + o.MaxRect[2]/2 - ex.width/2, o.MaxRect[1]+ o.MaxRect[3]/2 + 10/2);
+	if (o.data.num)
+	{
+		g.font = "bold 11px Arial";
+		g.fillStyle = 'black';
+		g.globalAlpha = 1.0;
+		
+		var ex = g.measureText(o.data.num);
+		g.fillText(o.data.num, o.MaxRect[0] + o.MaxRect[2]/2 - ex.width/2, o.MaxRect[1]+ o.MaxRect[3]/2 + 10/2);		
+	}
 		
 	return o;
 }
