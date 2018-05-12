@@ -5,7 +5,7 @@ var Categories =
 	{Code: 's', Color:'#00FF00', Desc:'Sušiareň'},
 	{Code: 'g', Color:'#FFFF00', Desc:'Garáž'},
 	{Code: 'k', Color:'#C0C0C0', Desc:'Kočikáreň'},
-	{Code: 'sp', Color:'#FF8888', Desc:'Spoločný priestor'},
+	{Code: 'sp', Color:'#CCCC55', Desc:'Spoločný priestor'},
 	{Code: 'm', Color:'#FF8888', Desc:'Miestnosť bez označenia'},	
 ];
 
@@ -107,13 +107,13 @@ var data =
 	{ 
 		rect : [218, 449, 51, 116], 
 		cat:'g', 
-		//num: '11',
+		num: '10 A',
 		color:'#00FF00'
 	},
 	{ 
 		rect : [272, 449, 53, 116], 
 		cat:'g', 
-		//num: 43,
+		num: '10 B',
 		color:'#00FF00'
 	},
 
@@ -195,11 +195,11 @@ var data =
 				
 	{	rect : [514, 355, 52, 113], 
 		cat: 'g', 
-		//num: '6'
+		num: '8 A'
 	},	
 	{	rect : [569, 354, 52, 113], 
 		cat: 'g', 
-		//num: '7'
+		num: '8 B'
 	},		
 	
 	{	rect : [632, 266, 40, 29], 
@@ -275,12 +275,12 @@ var data =
 	
 	{	rect : [816, 260, 54, 114], 
 		cat: 'g', 
-		//num: '6 N'
+		num: '6 A'
 	},	
 	
 	{	rect : [875, 260, 52, 112], 
 		cat: 'g', 
-		//num: '7'
+		num: '6 B'
 	},	
 	
 	/// Vchod c. 4
@@ -337,11 +337,11 @@ var data =
 	
 	{	rect : [1057, 30, 65, 43], 
 		cat: 'm', 
-		//num: '13 N'
+		num: '?'
 	},		
 
 	{	rect : [1125, 31, 111, 43], 
-		cat: 'm', 
+		cat: 'sp', 
 		//num: '12',
 		text: 'Výmenička'
 	},		
@@ -370,12 +370,12 @@ var data =
 		
 	{	rect : [1124, 171, 53, 111], 
 		cat: 'g', 
-		//num: '6'
+		num: '4 A'
 	},		
 
 	{	rect : [1180, 171, 53, 111], 
 		cat: 'g', 
-		//num: '7'
+		num: '4 B'
 	},		
 	
 	
