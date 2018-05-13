@@ -475,35 +475,35 @@ var data =
 	
 	{ 
 		point : [135, 445],
-		img : 'fotky/e10.jpg',
+		img : 'Fotky/E10.jpg',
 		cat : 'e',
 		num : 10,
 	},	
 	
 	{ 
 		point : [434, 352],
-		img : 'fotky/E8.jpg',
+		img : 'Fotky/E8.jpg',
 		cat : 'e',
 		num : 8,
 	},	
 	
 	{ 
 		point : [738, 292],
-		img : 'fotky/E6.jpg',
+		img : 'Fotky/E6.jpg',
 		cat : 'e',
 		num : 6,
 	},	
 	
 	{ 
 		point : [1048, 160],
-		img : 'fotky/e4.jpg',
+		img : 'Fotky/E4.jpg',
 		cat : 'e',
 		num : 4,
 	},	
 	
 	{ 
 		point : [1348, 280],
-		img : 'fotky/e2.jpg',
+		img : 'Fotky/E2.jpg',
 		cat : 'e',
 		num : 2,
 	},	
@@ -512,63 +512,63 @@ var data =
 	
 		{ 
 		point : [906, 173],
-		img : 'fotky/9.jpg',
+		img : 'Fotky/9.jpg',
 		cat : 'st',
 		num : 6,
 	},
 
 		{ 
 		point : [1148, 139],
-		img : 'fotky/10.jpg',
+		img : 'Fotky/10.jpg',
 		cat : 'st',
 		num : 4,
 	},		
 	
 	{ 
 		point : [950, 168],
-		img : 'fotky/28.jpg',
+		img : 'Fotky/28.jpg',
 		cat : 'st',
 		num : 4,
 	},		
 
 	{ 
 		point : [589, 316],
-		img : 'fotky/30.jpg',
+		img : 'Fotky/30.jpg',
 		cat : 'st',
 		num : 8,
 	},
 
 	{ 
 		point : [302, 354],
-		img : 'fotky/34.jpg',
+		img : 'Fotky/34.jpg',
 		cat : 'st',
 		num : 10,
 	},		
 	
 		{ 
 		point : [34, 456],
-		img : 'fotky/36.jpg',
+		img : 'Fotky/36.jpg',
 		cat : 'st',
 		num : 10,
 	},	
 	
 	{ 
 		point : [119, 364],
-		img : 'fotky/42.jpg',
+		img : 'Fotky/42.jpg',
 		cat : 'st',
 		num : 10,
 	},	
 	
 	{ 
 		point : [28, 376],
-		img : 'fotky/47.jpg',
+		img : 'Fotky/47.jpg',
 		cat : 'st',
 		num : 10,
 	},	
 	
 	{ 
 		point : [286, 373],
-		img : 'fotky/38.jpg',
+		img : 'Fotky/38.jpg',
 		cat : 'st',
 		num : 10,
 	},		
