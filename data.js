@@ -6,7 +6,12 @@ var Categories =
 	{Code: 'g', Color:'#FFFF00', Desc:'Garáž'},
 	{Code: 'k', Color:'#C0C0C0', Desc:'Kočikáreň'},
 	{Code: 'sp', Color:'#CCCC55', Desc:'Spoločný priestor'},
-	{Code: 'm', Color:'#FF8888', Desc:'Miestnosť bez označenia'},	
+	{Code: 'm', Color:'#FF8888', Desc:'Miestnosť bez označenia'},
+
+	{Code: 'sk', Color:'cyan', Desc:'Sklad'},	
+
+	{Code: 'e', Color:'red', Desc:'Elektrická skriňa', type:'POI'},
+	{Code: 'st', Color:'green', Desc:'Stupačka', type:'POI'},
 ];
 
 var data = 
@@ -31,11 +36,11 @@ var data =
 	
 	{	rect : [27, 381, 41, 39], 
 		cat:'p',
-		num: '43',
+		num: '47',
 	},
 	{	rect : [69, 380, 48, 39], 
 		cat: 'p',
-		num	: '47',
+		num	: '43',
 	},
 	{	rect : [70, 421, 45, 30], 
 		cat:'p',
@@ -438,4 +443,135 @@ var data =
 		text: 'Sprcha',
 	},	
 	
+// sklady vo vchodoch
+	{	rect : [190, 410, 20, 40], 
+		cat: 'sk', 
+		num: '10',
+	},	
+
+	{	rect : [486, 313, 20, 40], 
+		cat: 'sk', 
+		num: '8',
+	},	
+
+	{	rect : [789, 219, 20, 40], 
+		cat: 'sk', 
+		num: '6',
+	},	
+
+	{	rect : [1100, 128, 20, 40], 
+		cat: 'sk', 
+		num: '4',
+	},	
+
+	{	rect : [1403, 225, 20, 40], 
+		cat: 'sk', 
+		num: '2',
+	},		
+
+	
+// points of interest	
+
+	
+	{ 
+		point : [135, 445],
+		img : 'fotky/e10.jpg',
+		cat : 'e',
+		num : 10,
+	},	
+	
+	{ 
+		point : [434, 352],
+		img : 'fotky/E8.jpg',
+		cat : 'e',
+		num : 8,
+	},	
+	
+	{ 
+		point : [738, 292],
+		img : 'fotky/E6.jpg',
+		cat : 'e',
+		num : 6,
+	},	
+	
+	{ 
+		point : [1048, 160],
+		img : 'fotky/e4.jpg',
+		cat : 'e',
+		num : 4,
+	},	
+	
+	{ 
+		point : [1348, 280],
+		img : 'fotky/e2.jpg',
+		cat : 'e',
+		num : 2,
+	},	
+	
+
+	
+		{ 
+		point : [906, 173],
+		img : 'fotky/9.jpg',
+		cat : 'st',
+		num : 6,
+	},
+
+		{ 
+		point : [1148, 139],
+		img : 'fotky/10.jpg',
+		cat : 'st',
+		num : 4,
+	},		
+	
+	{ 
+		point : [950, 168],
+		img : 'fotky/28.jpg',
+		cat : 'st',
+		num : 4,
+	},		
+
+	{ 
+		point : [589, 316],
+		img : 'fotky/30.jpg',
+		cat : 'st',
+		num : 8,
+	},
+
+	{ 
+		point : [302, 354],
+		img : 'fotky/34.jpg',
+		cat : 'st',
+		num : 10,
+	},		
+	
+		{ 
+		point : [34, 456],
+		img : 'fotky/36.jpg',
+		cat : 'st',
+		num : 10,
+	},	
+	
+	{ 
+		point : [119, 364],
+		img : 'fotky/42.jpg',
+		cat : 'st',
+		num : 10,
+	},	
+	
+	{ 
+		point : [28, 376],
+		img : 'fotky/47.jpg',
+		cat : 'st',
+		num : 10,
+	},	
+	
+	{ 
+		point : [286, 373],
+		img : 'fotky/38.jpg',
+		cat : 'st',
+		num : 10,
+	},		
+	
 ];
+
