@@ -44,12 +44,15 @@ function DrawCircle(g, pt, r, StrokeColor, FillColor)
 	g.arc(pt.x,pt.y,r,0,2*Math.PI);
 	g.fill();		
 
-	g.lineWidth = 1;
+	g.lineWidth = 2;
 	g.strokeStyle = StrokeColor;
 	g.beginPath();
 	g.arc(pt.x,pt.y,r,0,2*Math.PI);
 	g.stroke();	
 }
+
+
+let PointRadius = 6;
 
 function DrawLegend(g, cats, pt)
 {
@@ -67,7 +70,7 @@ function DrawLegend(g, cats, pt)
 		{
 			g.globalAlpha = 1;
 			let p = {x:pt.x + 24, y : pt.y + linespace * (i-1) + 8};
-			DrawCircle(g, p, fontsize/2, 'black', cat.Color);
+			DrawCircle(g, p, PointRadius, 'black', cat.Color);
 		}
 		else
 		{
@@ -124,7 +127,6 @@ function DrawSelectedObject(g, o)
 }
 
 
-let PointRadius = 8;
 
 function DrawObject(g, o)
 {
